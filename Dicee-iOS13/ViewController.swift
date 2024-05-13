@@ -19,6 +19,8 @@ class ViewController: UIViewController {
         
         let diceArray = [UIImage(imageLiteralResourceName: "DiceOne"),UIImage(imageLiteralResourceName: "DiceTwo"),UIImage(imageLiteralResourceName: "DiceThree"),UIImage(imageLiteralResourceName: "DiceFour"),UIImage(imageLiteralResourceName: "DiceFive"),UIImage(imageLiteralResourceName: "DiceSix")]
         
+        let dice = 5
+        
         diceImageView1.image = diceArray.randomElement()
         diceImageView2.image = diceArray.randomElement()
         
